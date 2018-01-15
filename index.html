@@ -7,18 +7,15 @@ layout: page
   body {
     height: 100%;
   }
-
   img {
     display: inline-block;
     max-width: 100%;
   }
-
   h1 {
     text-align: center;
     font-size: 100%;
     margin-top: 40px;
   }
-
   button {
     display: inline-block;
     transform: rotate(1deg);
@@ -29,34 +26,28 @@ layout: page
     border: solid 1px #AAA;
     cursor: pointer;
   }
-
   button:hover {
     box-shadow: 0.5em 0.5em 1em rgba(1, 1, 1, 0.3);
     transform: scale(1.4) rotate(3deg) translateY(-0.2em);
   }
-
   .page {
     padding: 10px;
     height: 100%;
   }
-
   .page-doodle {
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-
   .page-info {
     flex: 1;
     text-align: center;
     margin: 1em;
   }
-
   .instagram-media {
     width: 100%;
   }
-
   @media screen and (min-width: 800px) {
     .page {
       display: flex;
@@ -64,13 +55,11 @@ layout: page
       justify-content: space-between;
       align-items: center;
     }
-
     .page-doodle {
       width: calc(100vh - 400px);
-      max-width: 550px;
+      max-width: 440px;
       order: -1;
     }
-
     .page-info img {
       margin-bottom: 100px;
     }
@@ -87,8 +76,8 @@ layout: page
       </noscript>
     </div>
     <div class="page-button">
-      <p>&darr; randomize doodles &darr; </p>
-      <button data-onclick="refresh-doodle">another please</button>
+      <p>&darr; randomize doodles &darr;</p>
+      <button data-onclick="refresh-doodle">a new one</button>
     </div>
   </div>
 
