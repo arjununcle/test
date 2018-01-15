@@ -64,14 +64,14 @@ var ids = [
   "BXgnJv8lX2n"
 ];
 
-"more doodles:"
+
 var buttonText = [
-  "another, daddio",
-  "order up",
-  "hit me",
+  "another doodle, daddio",
+  "hit me with another",
   "gimme more",
-  "now this I can get into",
-  "alright, one more"
+  "lemme get another",
+  "alright, one more",
+  "keep 'em comin'",
 ];
 
 var iterator = makeIterator(shuffle(ids));
