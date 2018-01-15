@@ -64,9 +64,9 @@ var ids = [
   "BXgnJv8lX2n"
 ];
 
+"more doodles:"
 var buttonText = [
-  "another doodle, daddio",
-  "more",
+  "another, daddio",
   "order up",
   "hit me",
   "gimme more",
