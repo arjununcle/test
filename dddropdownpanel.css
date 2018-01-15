@@ -12,7 +12,7 @@ font: normal 12px Arial;
 .ddpanel .ddpaneltab a{ /*"toggle" tab related CSS*/
 float: right;
 color: white;
-background: black url(toggleleft.gif) no-repeat left bottom; /*background of toggle tab*/
+background: white url(toggleleft.gif) no-repeat left bottom; /*background of toggle tab*/
 text-decoration: none;
 letter-spacing: 1px;
 }
